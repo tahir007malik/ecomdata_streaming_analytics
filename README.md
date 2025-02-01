@@ -1,4 +1,4 @@
-# realTimeDataStreamingAnalytics
+# ecommerceDataStreamingAnalytics
 This project demonstrates real-time data streaming pipeline to process and analyze e-commerce clickstream data for customer behavior insights. The pipeline will utilize Confluent Kafka for real-time data streaming and Azure for storage, processing, and visualization.
 
 ## **Project Overview**
