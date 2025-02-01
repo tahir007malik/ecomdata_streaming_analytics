@@ -63,14 +63,17 @@ pip install confluent-kafka
 
 #### **Kafka Topics**
 Create the following Kafka topics:
-- `clickstream-raw`
+- `clickstream`
 - `orders`
 - `user-profiles`
 - `delivery-status`
 
+![Kafka Topics](https://github.com/tahir007malik/ecommerceDataStreamingAnalytics/blob/main/Docs/ecommerceDataStreamingAnalytics-topic.png)
 ---
 
 ## **Step 1: Producing Data to Kafka Topics**
+
+![Kafka Producer Code](https://github.com/tahir007malik/ecommerceDataStreamingAnalytics/blob/main/Docs/ecommerceDataStreamingAnalytics-producer.png)
 
 ### **Clickstream Data Producer**
 Python script to generate synthetic clickstream data: /Producer/clickstream.py
@@ -83,6 +86,8 @@ Repeat similar producer scripts for `orders`, `user-profiles`, and `delivery-sta
 
 ### **Azure Blob Storage Sink Connector Configuration**
 - Configure the sink connector to move data from Kafka to ADLS Gen2:
+
+![Kafka Connector](https://github.com/tahir007malik/ecommerceDataStreamingAnalytics/blob/main/Docs/ecommerceDataStreamingAnalytics-connector.png)
 
 Deploy this configuration for each topic (`orders`, `user-profiles`, and `delivery-status`).
 
