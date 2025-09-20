@@ -1,9 +1,6 @@
 # E-Commerce Data Streaming Analytics
 This repository features a production-grade data pipeline leveraging Confluent Kafka for real-time collection of e-commerce clickstream and user activity data. It integrates Azure Data Lake Storage Gen2 (ADLS Gen2) and Databricks for efficient data storage, cleansing, and transformation. With Kafka producers managing user profiles, delivery statuses, orders, and clickstreams, this project highlights proficiency in practical streaming applications and real-time analytics workflows.
 
-## Video Documentation
-Link: [YouTube](https://youtu.be/2NZTa6HGbE4)
-
 ## **Project Overview**
 This project demonstrates a real-time data streaming pipeline where data is ingested into **Confluent Kafka topics** using Python, stored in **Azure Data Lake Storage Gen2 (ADLS Gen2)** via a Kafka sink connector, and analyzed in two different scenarios:
 
